@@ -1,4 +1,4 @@
-End-To-End Hotel Booking Data Analytics Project
+End-To-End Hotel Booking Data Analytics Project 
 
 This project explores real-world hotel booking data to uncover patterns in reservation cancellations and customer
 behavior using python. The project is designed to assist hotels in reducing cancellations and making better pricing 
