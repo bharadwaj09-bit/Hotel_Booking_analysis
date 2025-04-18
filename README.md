@@ -64,6 +64,7 @@ When the ADR is higher, cancellations are also higher.
 
 This supports the hypothesis that pricing directly impacts cancellation rates.
 
+![Image](https://github.com/user-attachments/assets/d97aa7de-258f-49ab-b1d2-502e298ef220)
 
 🧪 Hypotheses
 
