@@ -1,97 +1,112 @@
-End-To-End Hotel Booking Data Analytics Project 
+🏨 End-to-End Hotel Booking Data Analytics Project
+This project focuses on analyzing hotel booking data to identify patterns in customer behavior and reservation cancellations. The goal is to help hotels reduce cancellations and make better pricing and marketing decisions through data-driven insights.
 
-This project explores real-world hotel booking data to uncover patterns in reservation cancellations and customer
-behavior using python. The project is designed to assist hotels in reducing cancellations and making better pricing 
-and marketing decisions through actionable insights.
+🔧 Step-by-Step Project Workflow
+🔹 Step 1: Understanding the Business Problem
+The primary questions I aimed to answer through this project were:
 
-Research Questions
+What factors influence hotel reservation cancellations?
 
-What are the variables that affect hotel reservation cancellations?
+How can hotels minimize cancellations?
 
-How can we reduce hotel reservation cancellations?
+How can data guide better pricing and promotional strategies?
 
-How can hotels improve pricing and promotional decisions based on data?
+🔹 Step 2: Dataset Overview
+Used a publicly available Hotel Booking Demand dataset.
 
+It contains booking data for City Hotels and Resort Hotels, including details such as booking dates, customer demographics, pricing, length of stay, booking channels, and cancellation status.
 
-📊 Analysis & Key Findings
+🔹 Step 3: Data Cleaning and Preparation
+Loaded the data using Pandas.
 
-✅ Reservation Status
+Checked for missing values and handled them appropriately.
 
-Around 37% of all hotel reservations were cancelled.
+Converted date columns to proper datetime format.
 
-Cancellations have a notable impact on hotel revenue.
+Removed irrelevant or duplicate entries for cleaner analysis.
 
+🔹 Step 4: Exploratory Data Analysis (EDA)
+Performed in-depth EDA using Matplotlib and Seaborn to identify key trends and insights:
+
+✅ Reservation Status Analysis
+Found that 37% of bookings were cancelled.
+
+Highlighted the significant revenue impact of cancellations.
+![Image](https://github.com/user-attachments/assets/a7a30100-e70b-447f-9917-15eafa8b6f81)
 
 🏨 Hotel Type Comparison
+City hotels had more bookings overall.
 
-City hotels receive more bookings compared to resort hotels.
+Resort hotels had a higher cancellation rate.
+![Image](https://github.com/user-attachments/assets/e7f632d3-0c6f-41c1-a0f7-ac337f3413d5)
 
-Resort hotels show a higher cancellation rate than city hotels.
 
+💵 Pricing and Cancellations
+Cancellations increased when Average Daily Rate (ADR) was high.
 
-💵 Pricing & Cancellation
-
-Cancellations are more frequent when prices are higher.
-
-This trend is consistent in both resort and city hotels.
-
-Weekend and holiday prices for resort hotels are typically higher, contributing to more cancellations.
-
+Weekend and holiday rates in resort hotels were especially linked to cancellations.
+![Image](https://github.com/user-attachments/assets/7fa9e474-82cf-4792-93aa-cacd8d955431)
 
 📅 Seasonal Trends
+August had the highest bookings and cancellations.
 
-August sees the highest number of both bookings and cancellations.
+January showed the highest cancellation rate with the lowest confirmed bookings.
+![Image](https://github.com/user-attachments/assets/2cff6621-c66b-4692-8e0c-16ecf2885dc0)
 
-January has the highest percentage of cancellations and lowest confirmed reservations.
+🌍 Country-Wise Cancellations
+Portugal had the highest number of cancellations among all countries.
+![Image](https://github.com/user-attachments/assets/a68887ef-415b-49cb-8b8b-fdd1360291b6)
 
-🌍 Country-wise Cancellations
+🌐 Booking Source Breakdown
+46% of bookings came through OTAs, while only 4% were direct bookings.
 
-Portugal recorded the highest number of cancellations among all countries.
+🔹 Step 5: Hypothesis Testing
+I explored the following hypotheses based on trends in the data:
 
+Higher prices → more cancellations ✔️ Supported
 
-🌐 Booking Source
+Longer wait before check-in → more cancellations ✔️ Supported
 
-46% of bookings come from online travel agencies (OTAs).
+Most bookings made via OTAs ✔️ Confirmed
 
-27% come from group bookings.
+🔹 Step 6: Key Business Insights
+Pricing directly impacts cancellations.
 
-Only 4% of customers book directly through the hotel.
+Resort hotels need better cancellation control, especially during weekends/holidays.
 
+Direct bookings are minimal, increasing reliance on third-party channels.
 
-📉 ADR (Average Daily Rate) vs. Cancellations
+🔹 Step 7: Actionable Suggestions for Hotels
+Adjust Pricing Strategy
 
-When the ADR is higher, cancellations are also higher.
+Offer discounts during low seasons and weekends, especially for resort hotels.
 
-This supports the hypothesis that pricing directly impacts cancellation rates.
+Focus on January
 
-![Image](https://github.com/user-attachments/assets/d97aa7de-258f-49ab-b1d2-502e298ef220)
+Run marketing campaigns and offers to reduce January cancellations.
 
-🧪 Hypotheses
+Improve Service in High-Cancellation Areas
 
-Higher hotel prices lead to more cancellations.
+Focus on enhancing customer experience in countries like Portugal.
 
-Longer waiting periods before check-in increase the chance of cancellations.
+Promote Direct Booking
 
-Most bookings come through offline or online travel agents, not direct bookings.
+Encourage customers to book directly through incentives and loyalty programs.
 
+🔹 Step 8: Tools & Technologies Used
+Python (Pandas, NumPy)
 
-📌 Suggestions for Hotels
+Visualization: Matplotlib, Seaborn
 
-Adjust Pricing Strategy:
+Jupyter Notebook for development and presentation
 
-Reduce rates for specific locations during low seasons to minimize cancellations.
+EDA techniques to extract meaningful insights
 
-Offer seasonal discounts, especially on weekends/holidays for resort hotels.
+📌 Final Thoughts
+This project demonstrates how hotel businesses can leverage data analytics to:
 
-Focus on January Campaigns:
+Identify and reduce cancellation risks.
 
-Launch marketing and discount campaigns in January to reduce cancellations and increase confirmed bookings.
+Optimize revenue through smarter pricing.
 
-Improve Services in High-Cancel Areas:
-
-Focus on improving customer experience in Portugal, where cancellation rates are highest.
-
-Strengthen Direct Booking Channels:
-
-Increase awareness and incentives for customers to book directly, reducing dependence on OTAs and improving loyalty.
-
+Strengthen direct customer relationships through better booking strategies.
